@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: iregablog
 
 # Your name to show in the footer
-author: Some Person
+author: Iván Reinoso García
 
 # --- List of links in the navigation bar --- #
 
@@ -39,15 +39,15 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: "ivan.reinoso@outlook.es"
+# facebook: deanattali
+  github: irega
+  twitter: ivanirega
+# patreon: DeanAttali
+# youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: ireinoso
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
