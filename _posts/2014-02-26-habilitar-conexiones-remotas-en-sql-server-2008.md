@@ -14,4 +14,4 @@ La mayoría de las veces este error se debe a que no hemos habilitado las conexi
 
 1- Primero ejecutáis desde el menú inicio **"SQL Server Configuration Manager"**:
 
-![SQL startup menu](/assets/img/sql_startup_menu.png)
+![SQL startup menu](/assets/img/sql_startup_menu.png){: .mx-auto.d-block :}
