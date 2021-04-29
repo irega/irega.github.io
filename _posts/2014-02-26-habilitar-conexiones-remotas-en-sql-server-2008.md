@@ -2,7 +2,6 @@
 layout: post
 title: Habilitar conexiones remotas en SQL Server 2008
 tags: [SQL Server]
-comments: true
 ---
 
 Seguramente, alguna vez cuando habéis desarrollado una aplicación web en ASP .NET os ha salido este mensaje al ejecutarla:
