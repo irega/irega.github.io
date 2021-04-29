@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Principios de diseño #1
+title: Principios de diseño \#1
 subtitle: Test names should influence object’s API
 tags: [Software design]
 ---
