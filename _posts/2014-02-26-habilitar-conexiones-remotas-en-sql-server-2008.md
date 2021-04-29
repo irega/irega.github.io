@@ -34,6 +34,6 @@ La mayoría de las veces este error se debe a que no hemos habilitado las conexi
 
 Y pulsamos en la pantalla que se muestra después en **"Permitir otro programa…"** para añadir nuestro SQL Server como excepción. Dependiendo la edición que tengamos de SQL Server la ruta donde tenemos que buscar el ejecutable estará en un sitio o en otro, pero será muy parecida a la que os digo a continuación. En mi caso la ruta es:
 
-**C:\Archivos de programa\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlservr.exe**
+*C:\Archivos de programa\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlservr.exe*
 
 Con esto, deberíamos haber solucionado el problema 😉
