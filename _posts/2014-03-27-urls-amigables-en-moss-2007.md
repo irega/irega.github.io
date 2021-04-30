@@ -14,7 +14,7 @@ Se trata de una característica que se puede instalar y activar en cualquier por
 
 - **Implementación de un HttpModule** ([http://blogs.perficient.com/microsoft/2010/04/implement-friendly-urls-for-sharepoint-blog-sites](http://blogs.perficient.com/microsoft/2010/04/implement-friendly-urls-for-sharepoint-blog-sites)):
 
-Esta opción se basa en implementar una librería en .NET que será referenciada en el web.config del portal MOSS. Esta librería actúa por encima de MOSS cada vez que se solicita una dirección, de tal forma que se puede redireccionar o reescribir la dirección a otra completamente diferente. Esta opción es la más **personalizable**, pero a cambio necesita mucho más esfuerzo y **la implementación es mucho más costosa**.
+Esta opción se basa en implementar una librería en .NET que será referenciada en el web.config del portal MOSS. Esta librería actúa por encima de MOSS cada vez que se solicita una dirección, de tal forma que se puede redireccionar o reescribir la dirección a otra completamente diferente. Esta opción es **la más personalizable**, pero a cambio necesita mucho más esfuerzo y **la implementación es mucho más costosa**.
 
 - **Servidor REST** ([http://community.bamboosolutions.com/blogs/mashpoint/archive/2008/12/17/todo-introducing-mashpoint-tm-rest-api-for-sharepoint.aspx](http://community.bamboosolutions.com/blogs/mashpoint/archive/2008/12/17/todo-introducing-mashpoint-tm-rest-api-for-sharepoint.aspx) y [http://blogs.msdn.com/b/sharepointdesigner/archive/2008/12/05/creating-restful-mashups-using-spd-2007-part-1.aspx](http://blogs.msdn.com/b/sharepointdesigner/archive/2008/12/05/creating-restful-mashups-using-spd-2007-part-1.aspx)):
 
