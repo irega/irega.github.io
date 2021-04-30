@@ -16,7 +16,7 @@ En mi caso, hacía una búsqueda con LINQ sobre una lista de elementos del tipo 
 KeyValuePair<string, string> element = list.Where(pair => pair.Key == "valor_a_buscar").FirstOrDefault();
 {% endhighlight %}
 
-Por tanto, para saber si hay algún elemento en la lista que cumple la condición debía comprobar si la variable element tomaba el valor *null* o no. Como el operador de igualdad no está implementado en tipos *KeyValuePair*, tuve que sustituir la anterior línea de código por la siguiente:
+Por tanto, para saber si hay algún elemento en la lista que cumple la condición debía comprobar si la variable *element* tomaba el valor *null* o no. Como el operador de igualdad no está implementado en tipos *KeyValuePair*, tuve que sustituir la anterior línea de código por la siguiente:
 
 {% highlight csharp linenos %}
 KeyValuePair<string, string>? element = list.Where(pair => pair.Key == "valor_a_buscar").FirstOrDefault();
