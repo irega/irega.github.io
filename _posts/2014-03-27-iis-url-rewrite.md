@@ -68,7 +68,7 @@ Por ejemplo, si como se explica más adelante en la sección “Configuración b
 
 **3. CONFIGURACIÓN BÁSICA DE IIS**
 
-En el enlace de referencia que se ha comentado anteriormente, usa la interfaz del IIS Manager para configurar el módulo y sus reglas, pero en nuestro caso se ha partido del ejemplo que se propone para modificar directamente el archivo “web.config” del portal. Toda modificación que se haga en el “web.config”, en la sección **<configuration>/<system.webServer>/<rewrite>** se verá reflejada directamente en el módulo de IIS.
+En el enlace de referencia que se ha comentado anteriormente, usa la interfaz del IIS Manager para configurar el módulo y sus reglas, pero en nuestro caso se ha partido del ejemplo que se propone para modificar directamente el archivo “web.config” del portal. Toda modificación que se haga en el “web.config”, en la sección **&lt;configuration>/&lt;system.webServer>/&lt;rewrite>** se verá reflejada directamente en el módulo de IIS.
 
 Aun así, pasamos a mostrar por encima las pantallas de configuración del módulo:
 1- Primero se selecciona en el panel izquierdo la aplicación web donde se quiere activar el módulo.
@@ -88,7 +88,7 @@ Aun así, pasamos a mostrar por encima las pantallas de configuración del módu
 
 ![IIS URL Rewrite add new rule dialog](/assets/img/iis_rewrite_input_add_rule_dialog.png){: .mx-auto.d-block :}
 
-Aunque como hemos dicho anteriormente, en nuestro caso se ha modificado directamente el “web.config” del portal, añadiendo las siguientes líneas en la sección **<configuration>/<system.webServer>**:
+Aunque como hemos dicho anteriormente, en nuestro caso se ha modificado directamente el “web.config” del portal, añadiendo las siguientes líneas en la sección **&lt;configuration>/&lt;system.webServer>**:
 
 {% highlight xml linenos %}
 <rewrite>
