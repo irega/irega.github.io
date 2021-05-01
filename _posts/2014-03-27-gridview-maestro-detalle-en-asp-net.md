@@ -84,10 +84,10 @@ Private Sub gvPruebas_RowCommand(sender As Object, e As System.Web.UI.WebControl
 En mi opinión, la parte más complicada viene cuando en cada postback de la página queremos mantener desplegados los detalles de las filas que vamos seleccionando. Las implementaciones que encontré para esto buscando en “Google” utilizaban el evento **RowCreated** del grid. Sin embargo, este evento salta en cada postback incluso antes del evento “Page_Load”, por lo que tendremos muchas limitaciones a la hora de leer valores de la página o de los controles (ya que en ese momento no están inicializados).
 
 Por tanto, la implementación que he realizado yo (seguramente habrá muchas más posibilidades) es la siguiente:
-– Cada vez que se cargan datos nuevamente en el grid se guarda en el ViewState una lista con los IDs de cada registro y el índice de fila donde se encuentra.
-– Asumimos que en cada ordenación del grid se refrescan los datos.
+- Cada vez que se cargan datos nuevamente en el grid se guarda en el ViewState una lista con los IDs de cada registro y el índice de fila donde se encuentra.
+- Asumimos que en cada ordenación del grid se refrescan los datos.
 - En el evento RowCommand anterior gestionamos otra lista que también se almacena en el **ViewState**, que contiene los IDs de los registros cuyos detalles están seleccionados. Si el panel estaba visible, lo ocultamos y removemos su ID de dicha lista, en caso contrario lo añadimos y lo hacemos visible.
-– En el evento Page_Load capturamos cada postback de la página y recorremos la lista de detalles seleccionados, usando la otra lista para localizar el índice de la fila a partir del ID del registro.
+- En el evento Page_Load capturamos cada postback de la página y recorremos la lista de detalles seleccionados, usando la otra lista para localizar el índice de la fila a partir del ID del registro.
 
 Por último, hay que tener en cuenta que si se sigue este mecanismo habrá que diferenciar en el Page_Load cuando el postback se ha producido por un botón de “detalle” y en qué registro se encuentra éste. ¿Por qué? Pues porque si pulsamos el botón de un detalle que ya está desplegado, el Page_Load se ejecutará antes que el evento RowCommand y por tanto ese detalle seguirá en la lista de seleccionados, sin embargo no queremos mostrarlo, sino ocultarlo.
 
