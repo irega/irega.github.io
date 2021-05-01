@@ -7,8 +7,8 @@ tags: [JavaScript]
 
 **ÍNDICE:**
 - [(I) Introducción]({% post_url 2016-03-12-mi-bundle-javascript-con-vstudio-2013-node-gulp-jasmine-introduccion %})
-- [(II) Estructurando mi código]({% post_url 2016-03-12-mi-bundle-javascript-con-vstudio-2013-node-gulp-jasmine-estructurando-mi-codigo %})
-- [(III) Configurando la compilación]({% post_url 2016-03-12-mi-bundle-javascript-con-vstudio-2013-node-gulp-jasmine-configurando-la-compilacion %})
+- [(II) Estructurando mi código]({% post_url 2016-03-13-mi-bundle-javascript-con-vstudio-2013-node-gulp-jasmine-estructurando-mi-codigo %})
+- [(III) Configurando la compilación]({% post_url 2016-03-14-mi-bundle-javascript-con-vstudio-2013-node-gulp-jasmine-configurando-la-compilacion %})
 - [(IV) Minificando y testeando]({% post_url 2016-03-20-mi-bundle-javascript-con-vstudio-2013-node-gulp-jasmine-iv-minificando-y-testeando %})
 
 **PROYECTO DE EJEMPLO:**
@@ -33,4 +33,4 @@ Una vez tenemos el proyecto creado, podemos eliminar la clase que nos habrá cre
 
 ![JavaScript bundle project structure](/assets/img/js-bundle-project-structure.png){: .mx-auto.d-block :}
 
-[En el siguiente capítulo]({% post_url 2016-03-12-mi-bundle-javascript-con-vstudio-2013-node-gulp-jasmine-estructurando-mi-codigo %}), aprenderemos a estructurar todo el código de la carpeta “js” para que Node.js lo pueda interpretar en forma de módulos y se genere correctamente el código del bundle.
+[En el siguiente capítulo]({% post_url 2016-03-13-mi-bundle-javascript-con-vstudio-2013-node-gulp-jasmine-estructurando-mi-codigo %}), aprenderemos a estructurar todo el código de la carpeta “js” para que Node.js lo pueda interpretar en forma de módulos y se genere correctamente el código del bundle.
