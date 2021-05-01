@@ -17,4 +17,5 @@ Sin embargo, si soléis montar el entorno de desarrollo en máquinas virtuales c
 Empecé a buscar un poco por Google y leí en unos cuantos sitios que al parecer VirtualBox no es capaz de leer las características de virtualización del procesador correctamente, por lo que la mayoría de la gente usaba [VMWare](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0). A pesar de ello, tuve que abrir el archivo de configuración de la máquina virtual para conseguir que se ejecutara correctamente el emulador. Para ello os dejo los dos enlaces que seguí en su momento:
 
 [http://blog.dataart.com/how-to-launch-windows-phone-8-emulator-on-virtual-machine/](http://blog.dataart.com/how-to-launch-windows-phone-8-emulator-on-virtual-machine/)
+
 [http://geertvanhorrik.com/2012/10/31/running-the-windows-phone-8-emulator-in-a-virtual-machine](http://geertvanhorrik.com/2012/10/31/running-the-windows-phone-8-emulator-in-a-virtual-machine)
