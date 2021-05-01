@@ -75,19 +75,19 @@ Aun así, pasamos a mostrar por encima las pantallas de configuración del módu
 1- Primero se selecciona en el panel izquierdo la aplicación web donde se quiere activar el módulo.
 2- Una vez seleccionada, aparecerán las opciones disponibles para dicha aplicación en el panel de la derecha. Entramos en la configuración del módulo:
 
-![IIS URL Rewrite module config](/assets/img/iis_url_rewrite_module_config.jng){: .mx-auto.d-block :}
+![IIS URL Rewrite module config](/assets/img/iis_url_rewrite_module_config.jpg){: .mx-auto.d-block :}
 
 3- En la siguiente pantalla, aparecerán los listados de reglas. El que nos interesa es el listado superior de reglas de entrada a aplicar en la URL solicitada:
 
-![IIS URL Rewrite rules](/assets/img/iis_rewrite_rules.jng){: .mx-auto.d-block :}
+![IIS URL Rewrite rules](/assets/img/iis_rewrite_rules.jpg){: .mx-auto.d-block :}
 
 4- Para añadir una regla se puede usar el panel de acciones de la derecha:
 
-![IIS URL Rewrite add new rule](/assets/img/iis_rewrite_input_add_rule.jng){: .mx-auto.d-block :}
+![IIS URL Rewrite add new rule](/assets/img/iis_rewrite_input_add_rule.jpg){: .mx-auto.d-block :}
 
 5- Con lo que aparecerá una ventana donde se podrán seleccionar diferentes plantillas que nos ayudarán a crear la regla. Si se quiere tener total libertad para el formato de la regla, se deberá seleccionar la plantilla “Regla en blanco” para personalizar la regla mediante expresiones regulares. Si queremos una conversión de “friendly url” rápida y fácil se podrá seleccionar la plantilla “Dirección URL descriptiva”:
 
-![IIS URL Rewrite add new rule dialog](/assets/img/iis_rewrite_input_add_rule_dialog.jng){: .mx-auto.d-block :}
+![IIS URL Rewrite add new rule dialog](/assets/img/iis_rewrite_input_add_rule_dialog.jpg){: .mx-auto.d-block :}
 
 Aunque como hemos dicho anteriormente, en nuestro caso se ha modificado directamente el “web.config” del portal, añadiendo las siguientes líneas en la sección **&lt;configuration>/&lt;system.webServer>**:
 
