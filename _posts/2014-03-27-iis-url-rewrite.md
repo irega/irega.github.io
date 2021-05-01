@@ -73,6 +73,7 @@ En el enlace de referencia que se ha comentado anteriormente, usa la interfaz de
 Aun así, pasamos a mostrar por encima las pantallas de configuración del módulo:
 
 1- Primero se selecciona en el panel izquierdo la aplicación web donde se quiere activar el módulo.
+
 2- Una vez seleccionada, aparecerán las opciones disponibles para dicha aplicación en el panel de la derecha. Entramos en la configuración del módulo:
 
 ![IIS URL Rewrite module config](/assets/img/iis_url_rewrite_module_config.jpg){: .mx-auto.d-block :}
