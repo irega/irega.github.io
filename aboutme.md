@@ -7,6 +7,7 @@ js:
     - "/assets/js/aboutme/runtime-main.a422bc61.js"
     - "/assets/js/aboutme/2.1e94174f.chunk.js"
     - "/assets/js/aboutme/main.b18e0076.chunk.js"
+full-width: true
 ---
 
 <div id="root"></div>
