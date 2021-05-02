@@ -17,7 +17,7 @@ tags: [JavaScript]
 
 [En el anterior capítulo]({% post_url 2016-03-12-mi-bundle-javascript-con-vstudio-2013-node-gulp-jasmine-introduccion %}) aprendimos lo que era un bundle y a generar la estructura básica del proyecto en Visual Studio. Ahora vamos a ver como escribir y organizar nuestro código JavaScript para que Node.js sea capaz de leer y establecer las dependencias correctamente a la hora de generar el código final.
 
-Las dos funciones principales de Node son “require” y “exports”. Con “require”, indicamos que nuestro módulo JavaScript requiere ciertos objetos, variables o funciones declaradas en otro módulo. Con “exports” lo que indicamos es qué objetos, variables o funciones de nuestro módulo queremos exponer al resto. Pero, ¿qué es un módulo? Pues un módulo no es más que un fichero *.js. Veamos un caso práctico:
+Las dos funciones principales de Node son “require” y “exports”. Con “require”, indicamos que nuestro módulo JavaScript **requiere** ciertos objetos, variables o funciones declaradas en otro módulo. Con “exports” lo que indicamos es qué objetos, variables o funciones de nuestro módulo **queremos exponer al resto**. Pero, ¿qué es un módulo? Pues un módulo no es más que un fichero *.js. Veamos un caso práctico:
 
 Hemos incluido en la carpeta “js” todo nuestro código JavaScript:
 
