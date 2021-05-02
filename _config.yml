@@ -15,7 +15,7 @@ author: Iván Reinoso García
 
 navbar-links:
   Tags: "tags"
-  About Me: "./about-me"
+  About Me: "aboutme"
   # Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   # - Learn markdown: "https://www.markdowntutorial.com/"
