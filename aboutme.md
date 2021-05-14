@@ -1,7 +1,7 @@
 ---
 layout: page
 css:
-  - "/assets/css/aboutme/main.79c5576f.chunk.css"
+  - "/assets/css/aboutme/main.b5c5fec2.chunk.css"
 js:
   - "/assets/js/aboutme/runtime-main.c3c8dc43.js"
   - "/assets/js/aboutme/2.445d7c0f.chunk.js"
