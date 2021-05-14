@@ -1,0 +1,18 @@
+.profile-img {
+  width: 85%;
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.profile-img-section {
+  position: relative;
+}
+
+@media (min-width: 950px) {
+  .profile-img {
+    width: 100%;
+    max-width: 410px;
+    transform: scaleX(-1);
+    border-radius: 50%;
+  }
+}

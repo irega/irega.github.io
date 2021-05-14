@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About me
 css:
-    - "/assets/css/aboutme/main.723840f4.chunk.css"
+  - "/assets/css/aboutme/main.79c5576f.chunk.css"
 js:
-    - "/assets/js/aboutme/runtime-main.a422bc61.js"
-    - "/assets/js/aboutme/2.219a8a65.chunk.js"
-    - "/assets/js/aboutme/main.a5e0c846.chunk.js"
+  - "/assets/js/aboutme/runtime-main.c3c8dc43.js"
+  - "/assets/js/aboutme/2.445d7c0f.chunk.js"
+  - "/assets/js/aboutme/main.9ffb4ec0.chunk.js"
 full-width: true
+show-avatar: false
 ---
 
 <div id="root"></div>

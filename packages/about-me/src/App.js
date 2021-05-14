@@ -1,10 +1,10 @@
-import { AvatarPicture } from "./components/AvatarPicture/AvatarPicture";
+import { Profile } from "./components/Profile/Profile";
 
 function App() {
   return (
-    <div>
-      <AvatarPicture />
-    </div>
+    <>
+      <Profile />
+    </>
   );
 }
 
