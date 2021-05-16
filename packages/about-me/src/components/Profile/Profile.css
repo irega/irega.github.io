@@ -4,7 +4,6 @@
 }
 .vertical-padding {
   padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 @media (min-width: 950px) {
@@ -14,7 +13,6 @@
   }
   .vertical-padding {
     padding-top: 70px;
-    padding-bottom: 70px;
   }
 }
 
