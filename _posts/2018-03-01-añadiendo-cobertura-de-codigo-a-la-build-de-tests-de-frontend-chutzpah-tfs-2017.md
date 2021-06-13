@@ -39,11 +39,11 @@ A continuación comento las nuevas propiedades añadidas al archivo:
 
 - **CodeCoverageIgnores**: Indicamos en un array la lista de paths o globs que deben ser ignorados en el informe de cobertura de código. Empecé utilizando la propiedad “CodeCoverageExcludes”, pero en ciertas ocasiones, los tests se ven impactados y empiezan a fallar porque no se cargan las dependencias correctamente.En nuestro caso hemos obviado los módulos externos instalados por npm (node_modules) y los archivos de los propios tests (*.Spec.js).
 
-- **Transforms**: Indicaremos un array con las transformaciones necesarias. Estas transformaciones no son más que conversiones de los resultados de los tests en diferentes formatos.En nuestro caso vamos a generar un .xml en formato jacoco para que la build de TFS pueda interpretar los resultados de la cobertura de código y un .html con el informe de cobertura en formato más amigable para el usuario que quiera descargarlo al finalizar la build. En ambos casos hay que indicar la ruta del servidor de build donde queremos que se generen los archivos.
+- **Transforms**: Indicaremos un array con las transformaciones necesarias. Estas transformaciones no son más que conversiones de los resultados de los tests en diferentes formatos.En nuestro caso vamos a generar un .xml en formato **jacoco** para que la build de TFS pueda interpretar los resultados de la cobertura de código y un .html con el informe de cobertura en formato más amigable para el usuario que quiera descargarlo al finalizar la build. En ambos casos hay que indicar la ruta del servidor de build donde queremos que se generen los archivos.
 
 Ahora vamos  a modificar la definición de nuestra build para que se alimente de los dos archivos generados por Chutzpah. Añadimos al final un paso de tipo **Publish code coverage**:
 
-![Publish test coverage task](/assets/img/tfs_2017_publish_test_coverage.png){: .mx-auto.d-block :}
+![Publish test coverage task](/assets/img/tfs_2017_publish_coverage_task.png){: .mx-auto.d-block :}
 
 Podremos hacer referencia al directorio donde le hemos indicado a Chutzpah que genere los archivos mediante la variable **$(Common.TestResultsDirectory)**.
 
