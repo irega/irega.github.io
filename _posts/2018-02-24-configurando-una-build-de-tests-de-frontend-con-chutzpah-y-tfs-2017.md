@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Configurando una build de tests de Frontend con Chutzpah y TFS 2017
-tags: [JavaScript, DevOps]
+tags: [DevOps]
 ---
 
 Aunque a día de hoy es más habitual utilizar “test runners” como **Karma**, en proyectos más antiguos con código “legacy” que hacen uso de tecnologías Microsoft es habitual encontrarnos con **Chutzpah** como framework encargado para ejecutar los tests del Frontend de nuestra aplicación.
