@@ -6,7 +6,7 @@ thumbnail-img: /assets/img/cobertura_docker.gif
 tags: [DevOps]
 ---
 
-Después de [publicar el informe del resultado de los tests](% post_url 2019-07-06-publicando-el resultado-de-los-tests-ejecutados-dentro-de-un-contenedor-de-docker %), en la siguiente iteración conseguimos añadir la cobertura de código a dicho informe. Para ello, lo primero que extendimos es la **configuración del test runner “Karma”** para añadir el plugin adecuado:
+Después de [publicar el informe del resultado de los tests]({% post_url 2019-07-06-publicando-el resultado-de-los-tests-ejecutados-dentro-de-un-contenedor-de-docker %}), en la siguiente iteración conseguimos añadir la cobertura de código a dicho informe. Para ello, lo primero que extendimos es la **configuración del test runner “Karma”** para añadir el plugin adecuado:
 
 {% highlight json linenos %}
 [...]
@@ -30,7 +30,7 @@ Además, tendremos que modificar el **package.json** para instalar el plugin de 
 }
 {% endhighlight %}
 
-Y añadir el parámetro **–code-coverage** al script npm de que ejecuta los tests:
+Y añadir el parámetro **--code-coverage** al script npm de que ejecuta los tests:
 
 {% highlight json linenos %}
 [...]
