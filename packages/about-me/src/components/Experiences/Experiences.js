@@ -7,8 +7,6 @@ const Experiences = () =>
         <div className="experiences-body">
             <h2 className="experiences-title">Experience</h2>
             <div className="experiences-grid">
-                <div className="empty"></div>
-                <div className="line"></div>
                 <div className="experience experience_left">
                     <div className="experience-date">2021-23</div>
                     <div className="experience-company">Taxfix</div>
