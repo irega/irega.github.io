@@ -9,6 +9,17 @@ const Experiences = () =>
             <div className="experiences-grid">
                 <div className="empty"></div>
                 <div className="line"></div>
+                <div className="experience experience_left">
+                    <div className="experience-date">2021-23</div>
+                    <div className="experience-company">Taxfix</div>
+                    <div className="experience-position">Senior Software Engineer</div>
+                    <div className="experience-description">
+                    </div>
+                </div>
+                <div className="line"></div>
+                <div className="empty"></div>
+                <div className="empty"></div>
+                <div className="line"></div>
                 <div className="experience">
                     <div className="experience-date">2018-21</div>
                     <div className="experience-company">Plain Concepts</div>
